@@ -3,75 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Premium pet essentials for cleaner homes and happier pets." />
-  <title>PawEase | Pet Essentials</title>
+  <meta name="description" content="A high-converting pet hair remover landing page for cleaner homes and happier pet owners." />
+  <title>PawEase | Pet Hair Remover</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#top">PawEase</a>
+
       <nav>
         <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">☰</button>
         <ul id="main-nav" class="nav-links">
+          <li><a href="#problem-solution">How It Works</a></li>
           <li><a href="#benefits">Benefits</a></li>
           <li><a href="#products">Products</a></li>
-          <li><a href="#reviews">Reviews</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
-      <a class="btn btn-small" href="#" data-payment-link>Shop Now</a>
+
+      <a class="btn btn-small" href="#" data-payment-link>Get Yours Today</a>
     </div>
   </header>
 
   <main id="top">
+    <section class="urgency-banner" role="status" aria-label="stock notice">
+      <div class="container urgency-wrap">
+        <p><strong>Limited stock available</strong> — high demand this week.</p>
+        <p class="countdown" data-countdown aria-live="polite">Offer ends in: --:--:--</p>
+      </div>
+    </section>
+
     <section class="hero section">
       <div class="container hero-grid">
         <div>
-          <span class="kicker">Best Seller</span>
+          <p class="eyebrow">Best-Selling Cleaning Essential for Pet Parents</p>
           <h1>Remove Pet Hair in Seconds — Without the Mess</h1>
-          <p>
-            Our reusable Pet Hair Remover lifts fur from couches, carpets, and clothes fast.
-            No sticky rolls. No waste. Just a cleaner home in minutes.
+          <p class="subheadline">
+            Tired of fur on your couch, clothes, and car seats? PawEase lifts stubborn hair fast,
+            so your home looks cleaner without sticky tape or endless lint rolls.
           </p>
           <div class="cta-row">
-            <a class="btn" href="#" data-payment-link>Get Yours Today</a>
-            <a class="btn btn-ghost" href="#products">See Full Collection</a>
+            <a class="btn btn-lg" href="#" data-payment-link>Get Yours Today</a>
+            <a class="btn btn-ghost btn-lg" href="#products">See All Products</a>
           </div>
-          <div class="trust-row" aria-label="trust indicators">
-            <span>⭐ 4.8/5 average rating</span>
-            <span>🚚 Fast US shipping</span>
+          <div class="trust-badges" aria-label="trust badges">
+            <span>✅ 10,000+ happy customers</span>
+            <span>⭐ 4.8★ average rating</span>
             <span>🔒 Secure checkout</span>
           </div>
         </div>
+
         <div class="hero-image-card">
-          <img src="https://placehold.co/700x520?text=Pet+Hair+Remover" alt="Pet hair remover product mockup" />
+          <img src="https://placehold.co/800x620?text=Pet+Hair+Remover+Hero+Image" alt="Pet hair remover cleaning fur from couch" />
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section muted-bg">
+      <div class="container">
+        <h2>Real Pet Owners. Real Results.</h2>
+        <div class="social-proof-grid">
+          <article class="proof-card">
+            <p class="stars">★★★★★</p>
+            <p>“Before: fur all over my black sofa. After: clean in under 2 minutes.”</p>
+            <p class="reviewer">— Melissa D.</p>
+          </article>
+          <article class="proof-card">
+            <p class="stars">★★★★★</p>
+            <p>“Before: my work clothes were covered in hair. After: office-ready fast.”</p>
+            <p class="reviewer">— Jordan K.</p>
+          </article>
+          <article class="proof-card">
+            <p class="stars">★★★★☆</p>
+            <p>“Before: messy back seat. After: one pass and most fur is gone.”</p>
+            <p class="reviewer">— Priya N.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="problem-solution" class="section">
+      <div class="container">
+        <h2>From Fur-Covered to Fresh in 3 Easy Passes</h2>
+        <div class="problem-solution-grid">
+          <article class="split-card problem">
+            <h3>The Problem</h3>
+            <ul>
+              <li>Pet hair stuck deep in couch fabric</li>
+              <li>Clothes covered in fur before leaving home</li>
+              <li>Car seats that always look messy</li>
+            </ul>
+          </article>
+          <article class="split-card solution">
+            <h3>The PawEase Solution</h3>
+            <ul>
+              <li>Roll to trap hair from furniture, fabric, and seats</li>
+              <li>Empty reusable chamber in seconds</li>
+              <li>Repeat daily without buying sticky refills</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="benefits" class="section muted-bg">
       <div class="container">
-        <h2>Why Pet Parents Choose PawEase</h2>
+        <h2>Why It Converts First-Time Buyers into Repeat Customers</h2>
         <div class="benefit-grid">
           <article class="benefit-card">
-            <h3>Quick Fur Removal</h3>
-            <p>Roll over furniture and fabrics to pick up embedded hair in seconds.</p>
+            <h3><span class="icon">♻️</span> Reusable</h3>
+            <p>No sticky tape, no waste, no ongoing refill cost.</p>
           </article>
           <article class="benefit-card">
-            <h3>Reusable & Eco-Friendly</h3>
-            <p>No disposable sheets or constant refills — empty and reuse forever.</p>
+            <h3><span class="icon">🛋️</span> All Surfaces</h3>
+            <p>Great for sofas, bedding, clothing, rugs, and car interiors.</p>
           </article>
           <article class="benefit-card">
-            <h3>Pet-Safe Materials</h3>
-            <p>Designed with gentle, durable materials for everyday use around pets.</p>
+            <h3><span class="icon">⏱️</span> Saves Time</h3>
+            <p>Fast cleanup in minutes instead of repetitive lint rolling.</p>
           </article>
           <article class="benefit-card">
-            <h3>Home + Travel Ready</h3>
-            <p>Use it in your living room, car seats, pet beds, and on-the-go bags.</p>
+            <h3><span class="icon">🌿</span> Eco-Friendly</h3>
+            <p>Durable design reduces disposables and household waste.</p>
           </article>
         </div>
       </div>
@@ -79,76 +136,75 @@
 
     <section id="products" class="section">
       <div class="container">
-        <h2>Featured Products</h2>
+        <h2>Shop Best Sellers</h2>
         <div class="products-grid">
-          <article class="product-card">
-            <img src="https://placehold.co/500x360?text=Hair+Remover" alt="Pet Hair Remover" />
-            <h3>Pet Hair Remover</h3>
-            <p>The fast, reusable way to remove fur from couches, rugs, and clothes.</p>
-            <a class="btn" href="#" data-payment-link>Buy Now</a>
+          <article class="product-card featured">
+            <img src="https://placehold.co/560x380?text=Pet+Hair+Remover" alt="Pet Hair Remover" />
+            <div class="product-content">
+              <h3>Pet Hair Remover</h3>
+              <p class="price">$24.99</p>
+              <p>Reusable roller that removes stubborn fur from furniture and clothes fast.</p>
+              <a class="btn" href="#" data-payment-link>Buy Now</a>
+            </div>
           </article>
+
           <article class="product-card">
-            <img src="https://placehold.co/500x360?text=Car+Seat+Cover" alt="Waterproof Car Seat Cover" />
-            <h3>Waterproof Car Seat Cover</h3>
-            <p>Protects your back seat from fur, mud, and scratches during every ride.</p>
-            <a class="btn" href="#" data-payment-link>Buy Now</a>
+            <img src="https://placehold.co/560x380?text=Car+Seat+Cover" alt="Waterproof Car Seat Cover" />
+            <div class="product-content">
+              <h3>Waterproof Car Seat Cover</h3>
+              <p class="price">$34.99</p>
+              <p>Protects your interior from fur, scratches, dirt, and muddy paws.</p>
+              <a class="btn" href="#" data-payment-link>Buy Now</a>
+            </div>
           </article>
+
           <article class="product-card">
-            <img src="https://placehold.co/500x360?text=Slicker+Brush" alt="Self-Cleaning Slicker Brush" />
-            <h3>Self-Cleaning Slicker Brush</h3>
-            <p>Detangles, de-sheds, and keeps coats shiny while reducing loose hair.</p>
-            <a class="btn" href="#" data-payment-link>Buy Now</a>
+            <img src="https://placehold.co/560x380?text=Slicker+Brush" alt="Self-Cleaning Slicker Brush" />
+            <div class="product-content">
+              <h3>Self-Cleaning Slicker Brush</h3>
+              <p class="price">$19.99</p>
+              <p>De-sheds loose fur while keeping your pet’s coat smooth and healthy.</p>
+              <a class="btn" href="#" data-payment-link>Buy Now</a>
+            </div>
           </article>
+
           <article class="product-card">
-            <img src="https://placehold.co/500x360?text=Travel+Water+Bottle" alt="Pet Travel Water Bottle" />
-            <h3>Pet Travel Water Bottle</h3>
-            <p>Leak-proof hydration bottle with built-in bowl for walks and road trips.</p>
-            <a class="btn" href="#" data-payment-link>Buy Now</a>
+            <img src="https://placehold.co/560x380?text=Travel+Water+Bottle" alt="Pet Travel Water Bottle" />
+            <div class="product-content">
+              <h3>Pet Travel Water Bottle</h3>
+              <p class="price">$17.99</p>
+              <p>Portable hydration with built-in bowl for walks, hikes, and road trips.</p>
+              <a class="btn" href="#" data-payment-link>Buy Now</a>
+            </div>
           </article>
+
           <article class="product-card">
-            <img src="https://placehold.co/500x360?text=Calming+Bed" alt="Calming Donut Bed" />
-            <h3>Calming Donut Bed</h3>
-            <p>Ultra-soft support bed that helps anxious pets feel safe and rested.</p>
-            <a class="btn" href="#" data-payment-link>Buy Now</a>
+            <img src="https://placehold.co/560x380?text=Calming+Bed" alt="Calming Donut Bed" />
+            <div class="product-content">
+              <h3>Calming Donut Bed</h3>
+              <p class="price">$39.99</p>
+              <p>Soft, supportive bed to help anxious pets rest better and feel secure.</p>
+              <a class="btn" href="#" data-payment-link>Buy Now</a>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="reviews" class="section muted-bg">
-      <div class="container">
-        <h2>Loved by Thousands of Pet Owners</h2>
-        <div class="reviews-grid">
-          <blockquote>
-            "I’ve tried lint rollers for years — this works better and saves money."
-            <cite>— Amanda R.</cite>
-          </blockquote>
-          <blockquote>
-            "Our SUV stays clean now. The seat cover and remover are game changers."
-            <cite>— Chris M.</cite>
-          </blockquote>
-          <blockquote>
-            "My golden sheds non-stop. The slicker brush actually keeps up!"
-            <cite>— Jen T.</cite>
-          </blockquote>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="section">
+    <section id="faq" class="section muted-bg">
       <div class="container faq-wrap">
         <h2>Frequently Asked Questions</h2>
         <details>
-          <summary>How do I replace the checkout links?</summary>
-          <p>Update every button with the <code>data-payment-link</code> attribute in <code>index.html</code> and add your product or checkout URL in the <code>href</code> value.</p>
+          <summary>How long is shipping?</summary>
+          <p>Most orders are processed within 1–2 business days and delivered in 5–10 business days, depending on destination. Update this text to match your real logistics.</p>
         </details>
         <details>
-          <summary>Do these products work for both dogs and cats?</summary>
-          <p>Yes. All featured products are designed for common dog and cat grooming, travel, and comfort needs.</p>
+          <summary>What is your return policy?</summary>
+          <p>You can customize this section, but a common policy is 30-day returns for unused items in original packaging.</p>
         </details>
         <details>
-          <summary>How long does shipping take?</summary>
-          <p>You can replace this answer with your real shipping policy. Most stores list estimated processing and delivery windows by region.</p>
+          <summary>Does this work for all pets?</summary>
+          <p>Yes — it works well for common dog and cat fur types and on most fabric-based surfaces.</p>
         </details>
       </div>
     </section>
@@ -158,7 +214,7 @@
     <div class="container footer-grid">
       <div>
         <a class="brand" href="#top">PawEase</a>
-        <p>Cleaner homes, happier pets.</p>
+        <p>Cleaner homes. Happier pets.</p>
       </div>
       <div>
         <h4>Contact</h4>
@@ -179,3 +235,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
